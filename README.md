@@ -39,12 +39,6 @@ There are several things we can do in the future:
 - We can also add the rate limiter, circuit breaker to limit the requests.
 
 
-**How-To use it**
-
-To run the application, simply run 'java -jar build/libs/Calculator1-0.0.1-SNAPSHOT.jar' in the terminal.
-
-Navigate locally to http://localhost:8080/calculator
-
 
 
 
