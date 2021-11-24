@@ -38,7 +38,10 @@ There are several things we can do in the future:
 - As the requests increase, we will do the horizontal scaling to handle the large request.
 - We can also add the rate limiter, circuit breaker to limit the requests.
 
+**How to use it**
 
+1. Run "Calculator1Application" from /src/main/java/com/newtech/data/calculator1 or build the jar file to run.
 
+2. Navigate locally to http://localhost:8080/calculator 
 
 
