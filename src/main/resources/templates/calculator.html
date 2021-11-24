@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Calculator</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<br><br>
+
+<form th:action="@{/calculator}" th:object="${calculator}" method="post">
+        <label>Math Expression:</label>
+        <input type="text"  th:field="*{expr}" id="expression" placeholder="Enter a expression" style="width:350px">
+        <button type="submit" value = "Submit">Get result</button>
+</form>
+<h3>The result is:  <span th:utext="${answer}"> </span></h3>
+</body>
+</html>
